@@ -43,7 +43,7 @@ class AlphavantageService:
             return DataFrame()
         else:
             return df
-  def fetch_unemployment(self):
+    def fetch_unemployment(self):
         """
             Fetches unemployment data.
             Returns the data, or an empty DataFrame if none is available.
